@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+                    font-family: 'Lato', sans-serif;
+                    font-family: 'Open Sans', sans-serif;
+                    font-family: 'Work Sans', sans-serif;
+                }
+                nav{
+                    margin: 10px 100px;
+                }
+.nav-container{
+                    display: flex;
+                    /* border: 1px solid red; */
+                    justify-content: space-between;
+                    /* align-items: center; */
+}
+.nav-logo{
+                    display: flex;
+                    /* justify-content: space-between; */
+                    /* margin-top: 0; */
+                    /* border: 2px solid blue; */
+                    
+                   
+/* border: 1px solid seagreen; */
+}
+.nav-logo p{
+                    font-weight: 700;
+                    font-size: 40px;
+                    margin-top: 0;
+                 
+}
+ 
+
+.nav-logo img{
+                    /* border: 2px solid red; */
+                    width: 75px;
+                    height: 40px;
+                    /* object-fit: cover; */
+                    margin: 8px;
+
+}
+
+
+.nav-items > ul{
+                    display: flex;
+                    list-style: none;
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    font-weight: 500;
+                    gap: 10px;
+                    justify-content: space-between;
+                    padding-right: 20px;
+}
+/* /* .nav-items{
+ /* border: solid blue;
+ font-size: 20px;
+ display: flex;
+ justify-content: space-between;
+margin-left: 10px; */ 
+.g-logo{
+                    color: #FF42A5;
+}
+.gmaer-logo{
+                    color: black;
+}
+.banner{
+display: flex;
+border: 1px solid red;
+margin: 20px 100px;
+
+
+}
+.banner-text{
+/* border: 1px solid red; */
+width: 50%;
+}
+.banner-img{
+width: 50%;
+border: 1px solid red;
+justify-content: flex-end;
+}
+.banner-img img{
+                    width: 500px;
+              height: 500px;
+}
