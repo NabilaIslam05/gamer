@@ -227,4 +227,52 @@ line-height: normal;
     display: flex;
 }
 
+/* footer */
+.footer-container{
+    border: 1px solid red;
+    background-color: #0B0223;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 100px;
+    height: 400px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-logo img{
+    width: 75px;
+                    height: 40px;
+                    /* margin-left: 10px; */
+}
+.footer-logo p{
+    font-weight: 700;
+    font-size: 40px;
+    width: 75px;
+    height: 40px;
+
+
+}
+.footer-g-logo{
+    color: #FF42A5;
+}
+.footer-gmaer-logo{
+    color: white;
+}
+.footer-list>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+text-align: center;
+margin: 10px 150px;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+
+}
 
