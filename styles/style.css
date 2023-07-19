@@ -13,11 +13,12 @@
                     justify-content: space-between;
                     /* align-items: center; */
 }
-.nav-logo{
+.nav-container .nav-logo{
                     display: flex;
                     /* justify-content: space-between; */
                     /* margin-top: 0; */
                     /* border: 2px solid blue; */
+                    width: 50%;
                     
                    
 /* border: 1px solid seagreen; */
@@ -39,16 +40,34 @@
 
 }
 
-
+.nav-items {
+    /* border: 1px solid green; */
+    width: 50%;
+    /* color: green; */
+}
+.nav-items a{
+    color: #3C354F;
+}
 .nav-items > ul{
                     display: flex;
                     list-style: none;
                     margin-right: 30px;
                     margin-left: 30px;
                     font-weight: 500;
-                    gap: 10px;
+                    /* gap: 10px; */
                     justify-content: space-between;
+                    align-items: start;
                     padding-right: 20px;
+                    text-decoration:#3C354F ;
+}
+.nav-items .follow{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.nav-items a{
+    text-decoration: none;
+    text-justify: auto;
 }
 /* /* .nav-items{
  /* border: solid blue;
@@ -61,10 +80,11 @@ margin-left: 10px; */
 }
 .gmaer-logo{
                     color: black;
+
 }
 .banner{
 display: flex;
-border: 1px solid red;
+/* border: 1px solid red; */
 margin: 20px 100px;
 
 
@@ -75,10 +95,48 @@ width: 50%;
 }
 .banner-img{
 width: 50%;
-border: 1px solid red;
+/* border: 1px solid red; */
 justify-content: flex-end;
 }
 .banner-img img{
                     width: 500px;
               height: 500px;
+}
+.banner-text .play{
+    color: #0B0223;
+
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 0;
+}
+.banner-text h1{
+    font-weight: 800;
+    font-size: 80px;
+    /* color: ; */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* text-align: center; */
+margin-top: 0;
+
+}
+.banner-text button{
+    color: white;
+}
+.banner-text .btn-sign{
+    padding: 21px 40px;
+    border-radius: 48px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+}
+.banner-text .btn-go{
+    padding: 21px 40px;
+    border-radius: 48px;
+    font-weight: 600;
+    border: 0;
+    background: #4EC5F7;
+    margin-left: 10px;
+
 }
