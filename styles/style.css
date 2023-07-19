@@ -275,4 +275,32 @@ font-style: normal;
 font-weight: 600;
 
 }
-
+.footer-list-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 150px;
+    gap: 25px;
+}
+.fa-brands{
+    font-size: 40px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 10px 150px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    font-size: 12px;
+}
+.span-text{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* align-items: center; */
+    margin: 10px 150px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    font-size: 12px;
+}
