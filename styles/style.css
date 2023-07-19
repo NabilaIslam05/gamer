@@ -174,3 +174,33 @@ margin-top: 0;
 .card-4{
    
 } */
+/* .two-img-text{
+    display: flex;
+} */
+.two-img-text{
+    display: flex;
+}
+.two-img-in{
+    /* display: flex; */
+    position: relative;
+}
+.two-img img{
+    width: 400px;
+    height: 370px;
+    margin: 20px 100px;
+    border: 8px;
+
+}
+.one-img img{
+    width: 190px;
+    height: 220px;
+    position: absolute;
+    left: 60%;
+    top: 65%;
+}
+.two-img-text .img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
