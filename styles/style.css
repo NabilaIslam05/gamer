@@ -205,22 +205,26 @@ margin-top: 0;
     padding: 50px;
 }
 .li-items{
+    border: 1px solid red;
     display: grid;
     margin: 100px 100px;
     /* justify-content: center; */
     color: #0B0223;
-    text-combine-upright: 1px;
 text-align: center;
 text-decoration-style: solid;
-font-size: 21px;
+font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
     grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
 }
-.li-items img{
-    width: 40px;
+.li-items .item img{
+    width: 60px;
+    height: 60px;
 }
-
+.item{
+    display: flex;
+}
 
 
