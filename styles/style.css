@@ -60,10 +60,13 @@
                     padding-right: 20px;
                     text-decoration:#3C354F ;
 }
-.nav-items .follow{
+.nav-items .follow-logoo{
     background-color: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
     border-radius: 8px;
+}
+.follow-logoo .fa-brands{
+    font-size: 20px;
 }
 .nav-items a{
     text-decoration: none;
@@ -303,4 +306,7 @@ font-weight: 600;
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
     font-size: 12px;
+}
+.follow-logoo{
+    display: flex;
 }
