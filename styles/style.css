@@ -143,9 +143,17 @@ margin-top: 0;
     margin-left: 10px;
 
 }
-.online-text h1{
+.online-text .h1{
     display: flex;
     justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.games-col{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .online-text p{
     display: flex;
@@ -321,6 +329,7 @@ font-weight: 600;
     .nav-container{
         flex-direction: column;
         border: 1px;
+        margin: 1px;
     }
    .nav-container .nav-items>ul{
         flex-direction: column;
@@ -329,19 +338,52 @@ font-weight: 600;
     }
     .banner{
         flex-direction: column-reverse;
-        border: 0 1px;
+        border: 0;
+        margin: 0;
     }
-    .banner-img{
-        size: 20px; 
+    .two-img img{
+        width: 250px;
+        border: 0;
+        margin: 0;
+    }
+    .banner-img img{
+        width: 270px;
+        margin: 0;
+        border: 0;
     }
     .banner-text{
-    width: 200%;
+    width: 300px;
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+    justify-content: center;
+    }
+    .btn-go .btn-sign{
+        font-size: 50px;
+    }
+    /* .color-funny{
+        width: 20px;
+        flex-direction: row;
+    } */
+    .online-text .h1 {
+        font-size: 20px;
+    }
+    .color-funny{
+        font-size: 20px;
+      
     }
     .grid-card{
      
         grid-template-columns:1fr;
         /* width: fit-content; */
         margin: 0;
+        border: 0;
+        width: 300px;
+    }
+    .grid-card img{
+        width: 300px;
+        justify-content: center;
+
     }
     .two-img-text{
         flex-direction: column;
@@ -349,6 +391,7 @@ font-weight: 600;
     .footer-container{
         flex-direction: column;
        margin: 0;
+       width: auto;
     }
     .footer-logo{
         flex-direction: column;
@@ -358,15 +401,18 @@ font-weight: 600;
         flex-direction: column;
     }
     .li-items img{
-        width: 1px;
-        height: 1px;
+        font-size: 2px;
 
     }
     .li-items{
-       grid-template-columns: repeat(2,1fr);
+       grid-template-columns: repeat(3,1fr);
        border: 0;
        margin: 0;
+       font-size: 10px;
     }
+    /* .li-items img{
+        font-size: 2px;
+    } */
 .footer-list-logo{
     flex-direction: row;
 
