@@ -179,6 +179,118 @@ background-clip: text;
     width: 300px;
     height: 400px;
 }
+.grid-card .card-2{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.card-2 img{
+width: 100%;
+display: block;
+margin: auto;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+.grid-card .card-1{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.card-1 img{
+width: 100%;
+display: block;
+margin: auto;
+}
+.content-1{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content-1:hover{
+    opacity: 1;
+}
+.grid-card .card-3{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.card-3 img{
+width: 100%;
+display: block;
+margin: auto;
+}
+.content-3{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content-3:hover{
+    opacity: 1;
+}
+.grid-card .card-4{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.card-4 img{
+width: 100%;
+display: block;
+margin: auto;
+}
+.content-4{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    top:0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content-4:hover{
+    opacity: 1;
+}
 /* .card-1 {
 
 }
